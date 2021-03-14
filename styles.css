@@ -1,0 +1,11 @@
+body {
+  font-family: 'Chango', cursive;
+}
+
+h1 {
+  background-image: url(assets/pexels-lisa-fotios.jpg);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 180px;
+}
