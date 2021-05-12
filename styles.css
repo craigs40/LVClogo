@@ -3,46 +3,90 @@ header {
   background-image: url(./assets/pexels-sebastian-sorensen_edited.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 800px;
+  height: 380px;
 }
 
 .header-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 300px;
+  padding-top: 100px;
 }
 
-a {
+a,
+a.nav-link.dropdown-toggle {
   text-decoration: none;
   color: black;
+}
+
+a:hover,
+a.nav-link.dropdown-toggle:hover,
+.dropdown-item:hover {
+  color: #829787;
+}
+
+.dropdown-item:active {
+  background-color: #829787;
 }
 
 nav,
 .navlinks {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
 }
 
-.nav-text {
+.navlinks {
+  padding-top: 5px;
+}
+
+.nav-text,
+a.nav-link.dropdown-toggle {
   padding-left: 40px;
   padding-right: 40px;
 }
 
-.sub-btn {
-  border: 2px solid green;
+.dropdown-toggle {
+  padding: 0;
+  margin: 0;
+}
+
+.sub {
+  background-color: #829787;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.sub:hover {
   background-color: white;
-  padding: 5px;
-  margin-top: 13px;
+  outline: 2px solid #829787;
+}
+
+hr {
+  margin: 0;
 }
 
 .carousel {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top: 70px;
+  margin-bottom: 60px;
   width: 700px;
-  height: 700px;
+  height: 500px;
+  z-index: -1;
+}
+
+main {
+  background-color: #829787;
+}
+
+.cards {
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
