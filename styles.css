@@ -39,6 +39,11 @@ a.nav-link.dropdown-toggle:hover,
   background-color: #829787;
 }
 
+nav {
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
 nav,
 .navlinks {
   display: flex;
@@ -71,10 +76,6 @@ a.nav-link.dropdown-toggle {
   outline: 2px solid #829787;
 }
 
-hr {
-  margin: 0;
-}
-
 .carousel {
   display: block;
   margin-left: auto;
@@ -91,7 +92,7 @@ main {
 }
 
 .cards {
-  padding-top: 80px;
+  padding-top: 70px;
   padding-bottom: 70px;
 }
 
@@ -99,6 +100,11 @@ main {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.card-img {
+  height: 250px;
+  width: 250px;
 }
 
 footer {
