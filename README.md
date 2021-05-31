@@ -1,2 +1,2 @@
 # LVClogo
-Creating a brand logo
+Creating a brand website
