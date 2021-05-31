@@ -97,13 +97,23 @@ main {
   border: none;
 }
 
-.card-img {
+.card-img,
+.btm-img {
   height: 250px;
   width: 250px;
 }
 
+.card-img:hover {
+  animation: pulse;
+  animation-duration: 2s;
+}
+
 .top-img {
   width: 250px;
+}
+
+div.row.g-0 {
+  width: 1050px;
 }
 
 .cb2 {
