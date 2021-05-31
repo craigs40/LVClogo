@@ -1,9 +1,8 @@
 
 header {
-  background-image: url(./assets/pexels-sebastian-sorensen_edited.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
-  height: 480px;
+  background-size: cover;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,20 +12,20 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid rgba(198, 198, 198, 0.3);
-  background: rgba(198, 198, 198, 0.2);
-  width: 400px;
+  width: 300px;
   height: auto;
-}
-
-.header-img:hover {
-  background: rgba(198, 198, 198, 1);
 }
 
 a,
 a.nav-link.dropdown-toggle {
   text-decoration: none;
   color: black;
+}
+
+.nav-text,
+a.nav-link.dropdown-toggle {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 a:hover,
@@ -42,6 +41,7 @@ a.nav-link.dropdown-toggle:hover,
 nav {
   background-color: white;
   border-bottom: 1px solid black;
+  border-top: 1px solid black;
 }
 
 nav,
@@ -52,12 +52,6 @@ nav,
 
 .navlinks {
   padding-top: 5px;
-}
-
-.nav-text,
-a.nav-link.dropdown-toggle {
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
 .dropdown-toggle {
@@ -100,6 +94,7 @@ main {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: none;
 }
 
 .card-img {
@@ -107,9 +102,17 @@ main {
   width: 250px;
 }
 
+.top-img {
+  width: 250px;
+}
+
+.cb2 {
+  text-align: right;
+}
+
 footer {
   height: 250px;
-  background-color: grey;
+  background-color: #e5e4e4;
 }
 
 .sm-icons,
@@ -124,6 +127,10 @@ footer {
   height: 30px;
   width: 30px;
   margin-right: 10px;
+}
+
+.icon:hover {
+  opacity: 0.6;
 }
 
 .copyright {
@@ -146,7 +153,6 @@ footer {
   color: white;
 }
 
-.attr-link,
-.sm-text {
+.attr-link {
   color: white;
 }
